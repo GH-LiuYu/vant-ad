@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "typewriter-vue": "^0.5.17",
     "vant": "^3.3.7",
-    "vue": "^3.0.0",
-    "vue-typed-js": "^0.1.2"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -21,7 +21,9 @@
     "babel-eslint": "^10.1.0",
     "babel-plugin-import": "^1.13.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0"
   },
   "eslintConfig": {
     "root": true,
