@@ -11,7 +11,8 @@
     "core-js": "^3.6.5",
     "typewriter-vue": "^0.5.17",
     "vant": "^3.3.7",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
