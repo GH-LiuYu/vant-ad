@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from "./router"; //路由
+import store from './store'
 import { Tabbar, TabbarItem,Lazyload,Swipe, SwipeItem,Search,NoticeBar,TreeSelect,Grid, GridItem,Empty} from 'vant';
 const app = createApp(App);
 app.use(Tabbar);
@@ -17,6 +18,7 @@ app.use(Empty);
 app.use(Lazyload, {
     lazyComponent: true,
 });
+app.use(store)
 app.use(router)
 //其他引入的组件都需要在#app前面引入，不然渲染顺序有问题
 app.mount('#app')
